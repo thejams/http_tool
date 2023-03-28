@@ -18,7 +18,7 @@ to run the tool after create the binary file, run the following command:
 
 ## dictionary
 
-$> ./build/http_tool -parallel ${int_value} ${urls_list}
+    $> ./build/http_tool -parallel ${int_value} ${urls_list}
 
 * -parallel ${int_value} is a optional argument that allows you to set the number of parallel requests. Where ${int_value} is a numeric value that must be a greater than zero, for example 7.
 
