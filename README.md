@@ -4,10 +4,12 @@ small custom http tool to generate parallel http requests
 
 ## requirements
 
-to create the binary file run the following command:
+to create the binary file run the following command
+
     $> make build
 
-to run all the unit test run the following command:
+to run all the unit test run the following command
+
     $> make test
 
 ## run tool
