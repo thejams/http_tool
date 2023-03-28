@@ -1,0 +1,5 @@
+# Test binary, built with `go test -c`
+coverfile_out*
+
+### Go Patch ###
+/build/
