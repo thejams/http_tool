@@ -91,6 +91,7 @@ func (h *httpClient) MakeHttpRequest(url string) ([]byte, error) {
 	if res.StatusCode != 200 {
 		return nil, fmt.Errorf("%v request status != 200", res.StatusCode)
 	}
+	defer res.Body.Close()
 
 	body, err := ioutil.ReadAll(res.Body)
 	if err != nil {
